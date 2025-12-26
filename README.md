@@ -11,6 +11,8 @@ git clone
 docker compose up --build
 OR
 docker compose up --build postgres
+OR (without attached)
+docker compose up -d postgres
 ```
 > Notes: The first run needs to build the custom Postgres image (it runs apt and compiles pgvector). Postgres init script (postgres-init/init.sql) runs at first db startup to create the vector extension.
 

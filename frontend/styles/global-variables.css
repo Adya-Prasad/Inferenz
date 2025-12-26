@@ -1,0 +1,44 @@
+/**
+ * Global Variables
+ * Single source of truth for all design variables
+ */
+
+:root {
+  /* Primary Colors */
+  --color-main-prim: #484959;
+  --color-main-second: #7e808f;
+
+  /* Backgrounds */
+  --color-bg-main: #edecf2;
+  --color-bg-second: #e1dfee;
+  --color-bg-item: #f8f6ff;
+
+  /* Text */
+  --color-text-prim: #484959;
+  --color-text-second: #7e808f;
+  --color-text-muted: #9fa2b1;
+  --color-golden: #fca950;
+
+  /* Glassmorphism */
+  --glass-bg: rgba(255, 255, 255, 0.7);
+  --glass-blur: 12px;
+  --glass-border: rgba(255, 255, 255, 0.3);
+
+  /* Spacing */
+  --spacing-xs: 0.25rem;
+  --spacing-sm: 0.5rem;
+  --spacing-md: 1rem;
+  --spacing-lg: 1.5rem;
+  --spacing-xl: 2rem;
+
+  /* Border Radius */
+  --radius-sm: 0.5rem;
+  --radius-md: 0.75rem;
+  --radius-lg: 1rem;
+  --radius-xl: 2.5rem;
+
+  /* Shadows */
+  --shadow-sm: 0 2px 8px rgba(0, 0, 0, 0.04);
+  --shadow-md: 0 4px 12px rgba(0, 0, 0, 0.08);
+  --shadow-lg: 0 8px 32px rgba(0, 0, 0, 0.12);
+}
