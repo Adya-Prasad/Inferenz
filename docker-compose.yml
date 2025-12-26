@@ -1,0 +1,22 @@
+# Docker Compose: only the Postgres service is managed by Docker in the initial dev workflow.
+# Backend and frontend are run locally in a Python venv and via npm respectively.
+
+services:
+  postgres:
+    build:
+      context: ./postgres
+      dockerfile: Dockerfile
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+      POSTGRES_DB: inferenz
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+      - ./postgres-init:/docker-entrypoint-initdb.d
+    ports:
+      - "5433:5432"
+
+volumes:
+  pgdata:
+
+
