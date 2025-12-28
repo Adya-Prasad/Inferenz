@@ -5,18 +5,18 @@
 
 :root {
   /* Primary Colors */
-  --color-main-prim: #484959;
-  --color-main-second: #7e808f;
+  --color-highlight: #523f81;
 
   /* Backgrounds */
-  --color-bg-main: #edecf2;
-  --color-bg-second: #e1dfee;
-  --color-bg-item: #f8f6ff;
+  --color-bg-light: #e0dcea;
+  --color-bg-dark: #35333a;
+  --color-bg-item: #f6feff;
 
   /* Text */
-  --color-text-prim: #484959;
-  --color-text-second: #7e808f;
-  --color-text-muted: #9fa2b1;
+  --color-text-light: #35333a;
+  --color-text-dark: #d1cdd9;
+  --color-text-white: #fcfaff;
+  --color-text-low: #868686;
   --color-golden: #fca950;
 
   /* Glassmorphism */
